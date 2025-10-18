@@ -4,3 +4,5 @@ failedSamples:
   query:
     select: rate(sum(prometheus_remote_storage_samples_failed_total), 1 second)
     from: Metric
+
+# Update: 2025-10-18
